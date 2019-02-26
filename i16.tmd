@@ -1027,10 +1027,9 @@
             <[output][UniversalTime][]
                 <[string8][Input][Clock.OutputUniversalTime]>
             >
-//            <[output][LocalTime][]
-//                <[string8][Input][Clock.OutputLocalTime]>
-//            >
-
+            <[output][LocalTime][]
+                <[string8][Input][Clock.OutputLocalTime]>
+            >
 
             // navigation instruments start
 			

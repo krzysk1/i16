@@ -10,12 +10,15 @@
             <[input_lever][MixtureInput][0]
                 <[float64][Value][1.0]>
             >
-
-            // flaps up
-            <[input_lever][FlapsInput][0]
-                <[float64][Value][0.0]>
+			
+            // gear up
+            <[input_binary][GearInput][0]
+                <[float64][Value][1.0]>
             >
-
+            <[servoclassic][GearLever][0]
+                <[float64][Position][1.0]>
+            >
+			
             // trim
             <[input_default][PitchTrim][207]
                 <[float64][Value][0.232]>
