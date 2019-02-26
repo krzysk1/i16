@@ -3,7 +3,8 @@
         <[int][Version][210]>
         <[vec32array][ContactSpheres][ (1.714 1.027 -1.319 0.3538) (1.7140 -1.027 -1.319 0.3538) (-2.59 0.0 -0.3771 0.07405 ]>
         <[string8][DisplayName][Polikarpov I-16]>
-        <[string8][DescriptionTextEN][The Polikarpov I-16 was a Soviet fighter aircraft of revolutionary design; it was the world's first low-wing cantilever monoplane fighter with retractable landing gear to have attained operational status and as such "introduced a new vogue in fighter design. Converted from FlightGear by Krzysztof Kaniewski. 3D design and YASim model by BARANGER Emmanuel.]>
+        <[string8][DescriptionTextEN][The Polikarpov I-16 was a Soviet fighter aircraft of revolutionary design; it was the world's first low-wing cantilever monoplane fighter with retractable landing gear to have attained operational status and as such "introduced a new vogue in fighter design. 
+		Converted from FlightGear by Krzysztof Kaniewski. 3D design and YASim model by BARANGER Emmanuel.]>
 		<[float64][WingSpan][9.0]>
 		<[float64][Mass][1490.1]>
 		<[float64][MaximumSpeed][147.1]>
