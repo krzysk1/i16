@@ -1151,7 +1151,7 @@
                 <[tmvector3d][Axis][1.0 0.0 0.0]>
                 <[tmvector3d][Pivot][2.766 0.0 0.03]>
             >
-            <[graphics_propeller_blade][PropellerBlade][]
+            <[graphics_propeller_blade][PropellerBlade0][]
                 <[string8][GeometryList][ helice ]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
@@ -1163,6 +1163,18 @@
                 <[float64][Radius][1.4]>
                 <[string8][InputPitch][0.0]>
             >
+            <[graphics_propeller_blade][PropellerBlade1][]
+                <[string8][GeometryList][ helice01 ]>
+                <[uint32][PositionID][Fuselage.R]>
+                <[uint32][OrientationID][Fuselage.Q]>
+                <[uint32][AngleID][Propeller.RotationAngle]>
+                <[uint32][RotationSpeedID][Propeller.RotationSpeed]>
+                <[uint32][DamageID][Propeller.Damaged]>
+                <[tmvector3d][Axis][-1.0 0.0 0.0]>
+                <[tmvector3d][Pivot][2.766 0.0 0.03]>
+                <[float64][Radius][1.4]>
+                <[string8][InputPitch][0.0]>
+            >			
             <[propellergraphics][HeliceBlurred][]
                 <[string8][GeometryList][ propdisc ]>
                 <[uint32][PositionID][Fuselage.R]>
@@ -1496,7 +1508,7 @@
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
                 <[uint32][AngleID][HeadingAngle.Output]>
-                <[tmvector3d][Axis][0.0 0.0 -1.0]>
+                <[tmvector3d][Axis][0.0 0.0 1.0]>
                 <[tmvector3d][Pivot][0.307 0.0 0.552]>
             >
             <[hingedbodygraphics][alt_needle1_5][]
