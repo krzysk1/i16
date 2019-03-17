@@ -1054,7 +1054,7 @@
             <[vertical_speed_indicator][VerticalSpeedIndicator][]
                 <[string8][StaticPressure][PitotTube.StaticPressure]>
             >
-            <[output][VerticalSpeed][]
+            <[output][VerticalSpeedIndicatorNeedle][]
                 <[string8][Input][VerticalSpeedIndicator.VerticalSpeed]>
             >
 
@@ -1464,11 +1464,10 @@
             >
             <[rigidbodygraphics][Instruments_gear][]
                 <[string8][GeometryList][ gearbox  fond rect visses vitre vitresinn bouton face alt_fond alt_visses alt_vitre
-                                 asi_face asi_fond asi_visses asi_vitre background turn_face turn_fond turn_visses turn_vitre
-                                 rpm_face rpm_fond rpm_visses rpm_vitre vsi_face vsi_fond vsi_visses vsi_vitre
-                                 fuel_face fuel_fond panel2 fuel_visses fuel_vitre
-                                 setting_fond smoke_fond  photo magneto_fond brake_fond
- ]>
+				 asi_face asi_fond asi_visses asi_vitre background turn_face turn_fond turn_visses turn_vitre
+				 rpm_face rpm_fond rpm_visses rpm_vitre vsi_face vsi_fond vsi_visses vsi_vitre
+				 fuel_face fuel_fond panel2 fuel_visses fuel_vitre
+				 setting_fond smoke_fond  photo magneto_fond brake_fond ]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
             >
