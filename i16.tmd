@@ -968,11 +968,11 @@
 			// 671 kW (900 hp) at 2,200 rpm at 4,500 m (14,764 ft) 
             <[engine][Engine][]
                 <[string8][ThrottleControl][ServoThrottle.Output]>
-                <[float64][RotationInertia][1.1776]>
-                <[float64][ThrottleIdle][0.1]>
                 <[string8][RotationSpeed][DriveShaft.RotationSpeed]>
                 <[string8][AddTorque][DriveShaft.AddTorque]>
-                <[string8][AddInertia][DriveShaft.AddInertia]>
+                <[string8][AddInertia][DriveShaft.AddInertia]>				
+                <[float64][RotationInertia][1.1776]>
+                <[float64][ThrottleIdle][0.1]>
                 <[float64][Friction][150.0]>
                 <[float64][RatedRotationSpeed][230.0]>
                 <[float64][RatedPower][821000]>
@@ -1889,7 +1889,7 @@
             >
         >
         <[pointer_list_tmsound][SoundObjects][]
-            // wind kias
+            // wind
             <[soundinput][Airspeed][]
                 <[uint32][InputID][AirspeedIndicatorNeedle.Output]>
             >
