@@ -305,7 +305,7 @@
                 <[float64][ClAlpha][6.28]>
                 <[float64][CdAlpha][0.4]>
                 <[float64][CmAlpha][0.0]>
-                <[float64][ClFlap][1.5]>
+                <[float64][ClFlap][2.1]>
                 <[float64][CdFlap][0.005]>
                 <[float64][CmFlap][-0.020]>
                 <[float64][Cd0Base][0.005]>
@@ -325,7 +325,7 @@
                 <[float64][ClAlpha][6.28]>
                 <[float64][CdAlpha][0.4]>
                 <[float64][CmAlpha][0.0]>
-                <[float64][ClFlap][1.5]>
+                <[float64][ClFlap][2.1]>
                 <[float64][CdFlap][0.005]>
                 <[float64][CmFlap][-0.020]>
                 <[float64][Cd0Base][0.005]>
@@ -345,7 +345,7 @@
                 <[float64][ClAlpha][6.28]>
                 <[float64][CdAlpha][0.4]>
                 <[float64][CmAlpha][-0.2]>
-                <[float64][ClFlap][1.1]>
+                <[float64][ClFlap][1.8]>
                 <[float64][CdFlap][0.005]>
                 <[float64][CmFlap][-0.020]>
                 <[float64][Cd0Base][0.005]>
@@ -365,7 +365,7 @@
                 <[float64][ClAlpha][6.28]>
                 <[float64][CdAlpha][0.4]>
                 <[float64][CmAlpha][-0.2]>
-                <[float64][ClFlap][1.1]>
+                <[float64][ClFlap][1.4]>
                 <[float64][CdFlap][0.005]>
                 <[float64][CmFlap][-0.020]>
                 <[float64][Cd0Base][0.005]>
@@ -1148,12 +1148,17 @@
                 <[uint32][PositionID][RightWing.R]>
                 <[uint32][OrientationID][RightWing.Q]>
             >
+            <[graphics_input][BladePitchInput][]
+                <[uint32][InputID][GovernorPitch.Output]>
+                <[float64][Offset][0.0]>
+                <[float64][Scaling][0.628]>		
+            >				
             <[rotatingbodygraphics][Spinner][]
                 <[string8][GeometryList][ bol ]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
                 <[uint32][AngleID][Propeller.RotationAngle]>
-                <[tmvector3d][Axis][-1.0 0.0 0.0]>
+                <[tmvector3d][Axis][1.0 0.0 0.0]>
                 <[tmvector3d][Pivot][2.766 0.0 0.03]>
             >
             <[graphics_propeller_blade][PropellerBlade0][]
@@ -1163,10 +1168,11 @@
                 <[uint32][AngleID][Propeller.RotationAngle]>
                 <[uint32][RotationSpeedID][Propeller.RotationSpeed]>
                 <[uint32][DamageID][Propeller.Damaged]>
-                <[tmvector3d][Axis][1.0 0.0 0.0]>
+                <[tmvector3d][Axis][-1.0 0.0 0.0]>
                 <[tmvector3d][Pivot][2.766 0.0 0.03]>
                 <[float64][Radius][1.4]>
-                <[string8][InputPitch][0.0]>
+                <[string8][InputPitch][BladePitchInput.Output]>
+                <[tmvector3d][PitchAxis][ 0.0 0.0 -1.0 ]>
             >
             <[graphics_propeller_blade][PropellerBlade1][]
                 <[string8][GeometryList][ helice01 ]>
@@ -1175,10 +1181,11 @@
                 <[uint32][AngleID][Propeller.RotationAngle]>
                 <[uint32][RotationSpeedID][Propeller.RotationSpeed]>
                 <[uint32][DamageID][Propeller.Damaged]>
-                <[tmvector3d][Axis][1.0 0.0 0.0]>
+                <[tmvector3d][Axis][-1.0 0.0 0.0]>
                 <[tmvector3d][Pivot][2.766 0.0 0.03]>
                 <[float64][Radius][1.4]>
-                <[string8][InputPitch][0.0]>
+                <[string8][InputPitch][BladePitchInput.Output]>
+                <[tmvector3d][PitchAxis][ 0.0 0.0 -1.0 ]>
             >			
             <[propellergraphics][HeliceBlurred][]
                 <[string8][GeometryList][ propdisc ]>
@@ -1187,7 +1194,7 @@
                 <[uint32][AngleID][Propeller.RotationAngle]>
                 <[uint32][RotationSpeedID][Propeller.RotationSpeed]>
                 <[uint32][DamageID][Propeller.Damaged]>
-                <[tmvector3d][Axis][-1.0 0.0 0.0]>
+                <[tmvector3d][Axis][1.0 0.0 0.0]>
                 <[tmvector3d][Pivot][2.766 0.0 0.03]>
                 <[uint32][BladeNumber][2]>
                 <[float64][Radius][1.4]>
